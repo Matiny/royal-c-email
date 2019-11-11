@@ -8,14 +8,16 @@
   -webkit-text-size-adjust: 100%;
 }
 
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
   padding: 5% 0;
-  font-size: 36px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
   width: 80%;
   margin: 0 auto;
   line-height: 32px;
@@ -24,7 +26,6 @@ p {
 
 .second h1 {
   color: #17264f;
-  font-family: 'Oswald', sans-serif;
   padding: 2.5% 0;
 }
 
@@ -37,6 +38,7 @@ p {
 
 .one, .two, .three {
   width: 10%;
+  margin: 2.5% 0;
 }
 
 #crown, #anchor {
@@ -57,14 +59,13 @@ button a {
   font-size: 20px;
 }
 
+.third {
+  padding: 3% 0;
+}
+
 .fourth img {
   width: 90%;
   margin-top: 5%;
-}
-
-.fifth {
-  background-color: #dfdfdf;
-  text-align: center;
 }
 
 .fifth img {
